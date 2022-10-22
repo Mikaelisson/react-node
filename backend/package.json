@@ -10,6 +10,6 @@
   "scripts": {
     "start": "node app",
     "dev": "concurrently \"nodemon app\" \"cd.. && cd client && yarn start\"",
-    "postinstall": "cd client && yarn build"
+    "postinstall": "cd.. && cd client && yarn build"
   }
 }
