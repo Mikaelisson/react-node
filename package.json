@@ -6,8 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node backend/app.js",
-    "build": "cd client && yarn && yarn build",
-    "postinstall": "cd backend && yarn"
+    "postinstall": "concurrently \"cd backend && yarn\" \"cd client && yarn build\""
   },
   "dependencies": {
     "concurrently": "^7.4.0"
