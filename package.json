@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node backend/app.js",
     "dev": "concurrently \"nodemon backend/app\" \"cd client && yarn start\"",
-    "postinstall": "cd backend && yarn"
+    "postinstall": "concurrently \"cd backend && yarn\" \"cd client && yarn && yarn build\""
   },
   "dependencies": {
     "concurrently": "^7.4.0"
