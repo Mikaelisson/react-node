@@ -1,0 +1,10 @@
+{
+  "name": "react_node",
+  "version": "1.0.0",
+  "main": "backend/app.js",
+  "author": "Mikaelisson <mikaelissongesuino@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "cd backend && yarn"
+  }
+}
