@@ -9,7 +9,6 @@
   "license": "MIT",
   "scripts": {
     "start": "node app",
-    "dev": "concurrently \"nodemon app\" \"cd.. && cd client && yarn start\"",
-    "postinstall": "cd.. && cd client && yarn build"
+    "dev": "concurrently \"nodemon app\" \"cd.. && cd client && yarn start\""
   }
 }
