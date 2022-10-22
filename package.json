@@ -5,6 +5,7 @@
   "author": "Mikaelisson <mikaelissongesuino@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "start": "cd backend && yarn start",
     "postinstall": "cd backend && yarn"
   }
 }
